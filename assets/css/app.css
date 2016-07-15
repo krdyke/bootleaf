@@ -175,3 +175,22 @@ input[type="radio"], input[type="checkbox"] {
     display: none !important;
   }
 }
+.leaflet-control-container .leaflet-timeline-controls{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+      }
+
+.leaflet-timeline-controls button {
+    padding:5%;
+}
+
+.tt-suggestion {
+    background-color: white;
+}
+.tt-suggestion.tt-cursor, .tt-suggestion:hover {
+  background-color: #0097CF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
